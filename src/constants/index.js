@@ -1,4 +1,5 @@
-import { close, aafc, cengn, ceed, fes, git, programming, frameworks, cloud, project, data, logo, meteorFC, tempo, tenzies, smrtPark, email, linkedin, github, copyright } from "../assets";
+import { prototype } from "postcss/lib/previous-map";
+import { close, aafc, cengn, ceed, fes, git, programming, frameworks, cloud, project, data, logo, meteorFC, tempo, tenzies, smrtPark, email, linkedin, github, copyright, jsLogo, tsLogo, javaLogo, pythonLogo, cLogo, sqlLogo, htmlLogo, cssLogo, reactLogo, springLogo, btstrapLogo, twLogo, restLogo, figmaLogo, azure, aws, k8s, docker, openshift, ansible, wrike, jira, confluence, prototyping, riskMgmt, numpy, pandas, matlab, tableau, tensorflow, gitLogo } from "../assets";
 
 export const navLinks = [
   {
@@ -42,42 +43,68 @@ export const socials = [
 ];
 
 
+
 export const skills = [
   {
     id: "skill-1",
-    name: "Programming Lang.",
-    points : ["JavaScript/TypeScript", "Python", "Java", "SQL", "C", "HTML", "CSS"],
-    img : programming
+    name: "Programming Languages",
+    skills: [
+      {name:"Python", pic: pythonLogo},
+      {name:"JavaScript", pic: jsLogo},
+      {name:"TypeScript", pic: tsLogo},
+      {name:"Java", pic: javaLogo},
+      {name:"C", pic: cLogo},
+      {name:"SQL", pic: sqlLogo},
+      {name:"HTML", pic: htmlLogo},
+      {name:"CSS", pic: cssLogo},
+    ],
   },
   {
     id: "skill-2",
     name: "Frameworks & Tools",
-    points : ["React", "Spring", "BootStrap", "Tailwind CSS", "Figma", "Vite"],
-    img : frameworks
+    skills: [
+      {name:"React", pic: reactLogo},
+      {name:"Spring", pic: springLogo},
+      {name:"Git", pic: gitLogo},
+      {name:"BootStrap", pic: btstrapLogo},
+      {name:"Tailwind CSS", pic: twLogo},
+      {name:"REST APIs", pic: restLogo},
+      {name:"UX/Figma", pic: figmaLogo},
+    ],
   },
   {
     id: "skill-3",
-    name: "Cloud Computing",
-    points : ["Azure", "AWS", "Kubernetes", "Docker", "OpenShift", "OpenStack"],
-    img : cloud
+    name: "Cloud Computing and DevOps",
+    skills: [
+      {name:"Azure", pic: azure},
+      {name:"AWS", pic: aws},
+      {name:"Kubernetes", pic: k8s},
+      {name:"Docker", pic: docker},
+      {name:"OpenShift", pic: openshift},
+      {name:"Ansible", pic: ansible},
+    ],
   },
   {
     id: "skill-4",
     name: "Project Managment",
-    points : ["Wrike", "Atlassian Tool Set", "JIRA", "Confluence"],
-    img : project
+    skills: [
+      {name:"Wrike", pic: wrike},
+      {name:"JIRA", pic: jira},
+      {name:"Confluence", pic: confluence},
+      {name:"Prototyping", pic: prototyping},
+      {name:"Risk Managment", pic: riskMgmt},
+    ],
   },
   {
     id: "skill-5",
     name: "Data Analytics",
-    points : ["NumPy", "Pandas", "MATLAB", "Tableau", "TensorFlow"],
-    img : data
-  },
-  {
-    id: "skill-6",
-    name: "Version Control",
-    points : ["Git", "GitHub", "Bitbucket", "GitLab"],
-    img : git
+    skills: [
+      {name:"Numpy", pic: numpy},
+      {name:"Pandas", pic: pandas},
+      {name:"MatLab", pic: matlab},
+      {name:"Tableau", pic: tableau},
+      {name:"Tensorflow", pic: tensorflow},
+    ],
   },
 ];
 
@@ -89,9 +116,9 @@ export const experiences = [
       iconBg: "#E6DEDD",
       date: "Sep 2023 - Dec 2023",
       points: [
-        "Oversaw and managed a virtual reality padel ball tracking project throughout its entire lifecycle.",
-        "Facilitated requirements gathering, risk management and assessment, developing design criteria, producing prototypes, and evaluating project performance.",
-        "Created an inclusive and welcoming collaboration environment and coordinated tasks with the project clients.",
+       "Designed many swift and efficient REST API endpoints for a set of reports for courses, exercises and student transcripts.",
+       "Used Spring and Java to construct DTOs (Data Transfer Objects), DAOs (Data Access Objects) and backend services to query data from a mySQL database and used them to create the endpoints.",
+       "Optimized an endpoint by reducing its response time from 35 seconds to 4 seconds."
       ],
     },
     {

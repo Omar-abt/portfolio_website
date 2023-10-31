@@ -30,8 +30,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_eok0re5",
-        "template_88xr8kc",
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Omar Abotahoon",
@@ -39,7 +39,7 @@ const Contact = () => {
           to_email: "omarhossam.abt@gmail.com",
           message: form.message,
         },
-        "X4CTR-YliEnv1FEu2"
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
@@ -63,7 +63,7 @@ const Contact = () => {
 
   return (
     <section id="contact"
-    className='flex-col sm:pb-16 pb-6 relative p-6 '>
+    className='flex-col sm:pb-16 relative px-6 '>
 
       <div className="absolute z-[0] w-[60%] h-[40%] -left-[64%] rounded-full blue__gradient bottom-[35%] opacity-53" />
 
@@ -75,7 +75,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='flex-[0.6] mt-12 flex flex-col gap-8 contact-bg px-14 py-10 rounded-lg'
+          className='flex flex-col w-full md:w-[65%] mt-7 md:mt-12 gap-8 contact-bg px-6 py-8 md:px-14 md:py-10 rounded-lg'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4 font-poppins'>Your Name</span>
@@ -85,7 +85,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className='bg-tertiary p-4 placeholder:text-gray-500 text-primary rounded-lg outline-none border-none font-medium'
+              className='bg-tertiary p-4 placeholder:text-gray-500 text-primary rounded-lg outline-none border-none font-medium text-[14px] md:text-[16px]'
             />
           </label>
           <label className='flex flex-col'>
@@ -96,7 +96,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email address?"
-              className='bg-tertiary p-4 placeholder:text-gray-500 text-primary rounded-lg outline-none border-none font-medium'
+              className='bg-tertiary p-4 placeholder:text-gray-500 text-primary rounded-lg outline-none border-none font-medium text-[14px] md:text-[16px]'
             />
           </label>
           <label className='flex flex-col'>
@@ -107,7 +107,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='What do you want to say?'
-              className='bg-tertiary p-4 placeholder:text-gray-500 text-primary rounded-lg outline-none border-none font-medium'
+              className='bg-tertiary p-4 placeholder:text-gray-500 text-primary rounded-lg outline-none border-none font-medium text-[14px] md:text-[16px]'
             />
           </label>
 
