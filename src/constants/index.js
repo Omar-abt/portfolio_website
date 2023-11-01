@@ -142,7 +142,7 @@ export const experiences = [
       points: [
         "Engineered a proficient script used to automatically deploy Hybrid Cloud environments using Python, YAML, Ansible and REST APIs",
         "Developed software solutions in a DevOps culture using Scrum Agile methodology including sprints, daily standups, and sprint retrospectives.",
-        "Worked with cutting edge technology such as Docker, Kubernetes, Cloud technologies including OpenStack, Azure and AWS.",
+        "Deployed containerized microservice applications using Docker, Kubernetes and Cloud technologies including OpenStack, Azure and AWS.",
         "Leveraged the Atlassian tool set (JIRA, Confluence, BitBucket) for managing the work progress and collaborating on projects with co-workers.",
       ],
     },
