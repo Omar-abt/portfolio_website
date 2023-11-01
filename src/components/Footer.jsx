@@ -32,7 +32,7 @@ const Footer = () => {
         ))}
       </ul>
 
-      <div className="flex flex-row md:px-5 pt-8 justify-center items-center opacity-85">
+      <div className="flex flex-row md:px-5 pt-8 pb-6 md:pb-1 justify-center items-center opacity-85">
         <p className='text-white font-poppins text-[10.5px] md:text-[16px] font-light pr-1 md:pr-2'>Copyright</p>
         <img src={copyright} className="w-[1.4vh] h-[1.4vh] md:w-[2vh] md:h-[2vh]"/>
         <p className='text-white font-poppins text-[10.5px] md:text-[16px] font-light pl-1 md:pl-2'>2023 
