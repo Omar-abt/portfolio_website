@@ -33,9 +33,9 @@ const Footer = () => {
       </ul>
 
       <div className="flex flex-row md:px-5 pt-8 justify-center items-center opacity-85">
-        <p className='text-white font-poppins text-[11.5px] md:text-[16px] font-light pr-2'>Copyright</p>
-        <img src={copyright} className="w-[2vh] h-[2vh]"/>
-        <p className='text-white font-poppins text-[11.5px] md:text-[16px] font-light pl-2'>2023 
+        <p className='text-white font-poppins text-[10.5px] md:text-[16px] font-light pr-1 md:pr-2'>Copyright</p>
+        <img src={copyright} className="w-[1.4vh] h-[1.4vh] md:w-[2vh] md:h-[2vh]"/>
+        <p className='text-white font-poppins text-[10.5px] md:text-[16px] font-light pl-1 md:pl-2'>2023 
           <span className="text-gradient"> Omar Abotahoon</span>
         . All Rights Reserved</p>
       </div>
