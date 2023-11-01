@@ -117,7 +117,7 @@ export const experiences = [
       date: "Sep 2023 - Dec 2023",
       points: [
        "Designed many swift and efficient REST API endpoints for a set of reports for courses, exercises and student transcripts.",
-       "Used Spring and Java to construct DTOs (Data Transfer Objects), DAOs (Data Access Objects) and backend services to query data from a mySQL database and used them to create the endpoints.",
+       "Used Spring and Java to construct DTOs (Data Transfer Objects), DAOs (Data Access Objects) and backend services that queried data from a MySQL database and performed computations on it to create the endpoints.",
        "Optimized an endpoint by reducing its response time from 35 seconds to 4 seconds."
       ],
     },
@@ -140,10 +140,10 @@ export const experiences = [
       iconBg: "#E6DEDD",
       date: "Jan 2022 - Aug 2022",
       points: [
+        "Engineered a proficient script used to automatically deploy Hybrid Cloud environments using Python, YAML, Ansible and REST APIs",
+        "Developed software solutions in a DevOps culture using Scrum Agile methodology including sprints, daily standups, and sprint retrospectives.",
         "Worked with cutting edge technology such as Docker, Kubernetes, Cloud technologies including OpenStack, Azure and AWS.",
         "Leveraged the Atlassian tool set (JIRA, Confluence, BitBucket) for managing the work progress and collaborating on projects with co-workers.",
-        "Used Python, YAML, Ansible and REST APIs to develop a proficient script used to automatically deploy Hybrid Cloud environments.",
-        "Developed software solutions in a DevOps culture using Scrum Agile methodology including sprints, daily standups, and sprint retrospectives.",
       ],
     },
     {
