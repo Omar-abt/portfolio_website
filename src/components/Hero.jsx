@@ -23,7 +23,7 @@ const Hero = () => {
 
   return (
     <section id="about" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 md:pr-0 px-6`}>
+      <div className={`flex-1 ${styles.flexStart} flex-col sm:px-16 md:pr-0 px-6`}>
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="px-6 md:pr-0 pb-1 md:pb-0 flex-1 font-poppins font-semibold text-[32px] md:text-[66px] text-gradient">Omar Abotahoon</h1>
