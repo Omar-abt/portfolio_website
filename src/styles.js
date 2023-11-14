@@ -1,5 +1,5 @@
 const styles = {
-    boxWidth: "xl:max-w-[2560px] w-full",
+    boxWidth: "w-full",
   
     heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
     heading4: "font-poppins font-semibold xs:text-[48px] text-[24px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
@@ -9,6 +9,7 @@ const styles = {
     flexStart: "flex justify-center items-start",
   
     paddingX: "sm:px-16 px-6",
+    paddingLeft: "sm:px-16 pl-6",
     paddingY: "sm:py-16 py-6",
     paddingTop: "sm:pt-16 pt-6",
     padding: "sm:px-16 px-6 sm:py-12 py-4",
