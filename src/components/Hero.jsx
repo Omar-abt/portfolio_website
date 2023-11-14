@@ -44,7 +44,7 @@ const Hero = () => {
 
       </div>
 
-     <div className={`relative flex justify-start md:justify-center items-center md:my-0 my-10 px-12 sm:px-0`}>
+     <div className={`relative flex xs:justify-start sm:justify-end items-center md:my-0 my-10 px-12 sm:px-0`}>
             <ResumeButton />
 
             {isSmallScreen ? <></> : <img src={rorbotArm} alt="" className="w-[80vh] h-[80vh] relative z-[2]" />}

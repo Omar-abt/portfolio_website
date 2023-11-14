@@ -14,7 +14,7 @@ const Skills = () => {
         <h1 className={`p-6 ${styles.heading2}`}>Skills</h1>
       </div>
 
-      <div className='flex flex-wrap sm:justify-center justify-center w-full relative z-[1]'>
+      <div className='flex flex-col sm:justify-center justify-center w-full relative z-[1]'>
         {skills.map((card) =>     
             <SkillCard key={card.id} {...card} />
         )}
