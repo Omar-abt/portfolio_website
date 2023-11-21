@@ -116,9 +116,9 @@ export const experiences = [
       iconBg: "#E6DEDD",
       date: "Sep 2023 - Dec 2023",
       points: [
-       "Collaborated with the design team and front-end developers to design 4 different fast and efficient REST API endpoints for a set of reports for courses, exercises and student transcripts.",
-       "Developed interactive and responsive user interface components for the Cyber Range Product using React.",
-       "Used Spring and Java to construct DTOs (Data Transfer Objects), DAOs (Data Access Objects) and backend services that queried data from a MySQL database and performed computations on it to create the endpoints.",
+       "Built 6 different fast and efficient REST API endpoints by collaborating with the design team and front-end developers to service a set of reports for courses, exercises and student transcripts on the Cyber Range platform used by hundreds of students and instructors.",
+       "Used Java and Spring to construct DTOs (Data Transfer Objects), DAOs (Data Access Objects) and backend services that queried data from a MySQL database using CRUD operations to create client/server applications.",
+       "Developed interactive and responsive user interface components for the Cyber Range Platform using React.",
        "Optimized an endpoint by reducing its response time from 35 seconds to 4 seconds."
       ],
     },
