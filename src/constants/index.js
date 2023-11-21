@@ -110,7 +110,7 @@ export const skills = [
 
 export const experiences = [
     {
-      title: "Software Developer",
+      title: "Software Developer COOP",
       company_name: "Field Effect Software",
       icon: fes,
       iconBg: "#E6DEDD",
