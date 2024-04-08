@@ -18,6 +18,7 @@ import {
   email,
   fes,
   figmaLogo,
+  flightDelays,
   frameworks,
   git,
   gitLogo,
@@ -28,6 +29,7 @@ import {
   jsLogo,
   k8s,
   linkedin,
+  linkedinScraper,
   logo,
   matlab,
   meteorFC,
@@ -166,10 +168,10 @@ export const experiences = [
     iconBg: '#E6DEDD',
     date: 'Sep 2023 - Dec 2023',
     points: [
-      'Architected and built over 6 different fast and efficient REST API endpoints by collaborating with the design team and front-end developers to service a set of reports for courses, exercises and student transcripts on the Cyber Range platform.',
-      'Used Java and Spring to construct DTOs (Data Transfer Objects), DAOs (Data Access Objects) and backend services that queried data from a MySQL database using CRUD operations to create client/server applications.',
-      'Developed responsive and interactive full stack applications for the Cyber Range Platform including frontend data visualization components and services for data graphs, charts and tables using React.',
-      'Crafted a sophisticated React state pattern system with custom hooks to manage different frontend components.',
+      'Architected and built over 6 different fast and efficient REST API endpoints by collaborating with the design team and back-end developers to service a set of reports for courses, exercises and student transcripts on the Cyber Range platform.',
+      'Leveraged Java and Spring to construct DTOs (Data Transfer Objects), DAOs (Data Access Objects) and back-end services that queried data from a MySQL database using CRUD operations to create client/server applications.',
+      'Developed responsive and interactive full stack applications for the Cyber Range Platform including frontend data visualization components and services for data graphs, charts and tables using React and JavaScript libraries.',
+      'Crafted a React state pattern system with custom hooks and wrote unit tests using Jest achieving over 90% code coverage. ',
       'Optimized an endpoint by reducing its response time from 35 seconds to 4 seconds.',
     ],
   },
@@ -180,9 +182,9 @@ export const experiences = [
     iconBg: '#E6DEDD',
     date: 'Sep 2022 - Apr 2023',
     points: [
-      'Oversaw and managed a virtual reality padel ball tracking project throughout its entire lifecycle.',
-      'Facilitated requirements gathering, risk management and assessment, developing design criteria, producing prototypes, and evaluating project performance.',
-      'Created an inclusive and welcoming collaboration environment and coordinated tasks with the project clients.',
+      'Managed and delivered a 4-month virtual reality padel ball tracking project throughout its entire lifecycle by following an iterative approach.',
+      'Facilitated requirements gathering, risk assessment, developing design criteria, producing prototypes, and evaluating project performance.',
+      'Utilized agile methodology practices and lead weekly standups with development teams, as well as communicated updates to stakeholders.',
     ],
   },
   {
@@ -193,7 +195,7 @@ export const experiences = [
     iconBg: '#E6DEDD',
     date: 'Jan 2022 - Aug 2022',
     points: [
-      'Engineered a proficient script used to automatically deploy Hybrid Cloud environments using Python, YAML, Ansible and REST APIs',
+      'Used Python, YAML, Ansible and REST APIs to engineer a Python script that can deploy entire Hybrid Cloud environments in under 5 minutes.',
       'Developed software solutions in a DevOps culture using Scrum Agile methodology including sprints, daily standups, and sprint retrospectives.',
       'Deployed containerized microservice applications using Docker, Kubernetes and Cloud technologies including OpenStack and AWS.',
       'Leveraged the Atlassian tool set (JIRA, Confluence, BitBucket) for managing the work progress and collaborating on projects with co-workers.',
@@ -206,9 +208,8 @@ export const experiences = [
     iconBg: '#E6DEDD',
     date: 'May 2021 - Aug 2021',
     points: [
-      'Created a sophisticated storage management system using bash scripting.',
-      'Wrote various automation scripts and created complex pipelines using Bash shell scripting in a Linux environment.',
-      'Implemented the Software Development Life Cycle while developing the storage management system.',
+      'Created a storage management system using Bash scripting serving over 1000 scientists by allowing them to effectively store research data.',
+      'Wrote automation scripts and created complex pipelines to automate repetitive tasks like user creation and resource allocation, reducing the time taken by this process by 1 hour for each user.',
     ],
   },
 ];
@@ -216,8 +217,17 @@ export const experiences = [
 export const projects = [
   {
     id: 'proj-1',
-    title: 'METEOR FC',
+    title: 'LinkedIn Job Scraper',
     position: 'left',
+    description:
+      'A sophisticated job scraper that can look up hundreds of job postings, scrape the posting details, clean the data and output it to a csv file.',
+    img: linkedinScraper,
+    github: 'https://github.com/Omar-abt/linkedin_job_scraper',
+  },
+  {
+    id: 'proj-2',
+    title: 'METEOR FC',
+    position: 'right',
     description:
       'Explore the world of soccer leagues with Meteor FC. Your gateway to diverse leagues and endless play opportunities.',
     img: meteorFC,
@@ -225,33 +235,22 @@ export const projects = [
     demo: 'https://meteor-fc.vercel.app/',
   },
   {
-    id: 'proj-2',
-    title: 'TENZIES GAME',
-    position: 'right',
+    id: 'proj-3',
+    title: 'FLIGHT DELAYS DATA WAREHOUSE',
+    position: 'left',
     description:
-      'Roll the Dice and Win Big with Tenzies! Keep rolling for that perfect match and reign supreme in this exciting online dice game.',
-    img: tenzies,
-    github: 'https://github.com/Omar-abt/Tenzies',
-    demo: 'https://tenzies-omar-abt.vercel.app/',
+      'Designed and implemented a data mart through the ETL process, performing data analytics, creating OLAP queries and performing data mining.',
+    img: flightDelays,
+    github: 'https://github.com/Omar-abt/FlightDelays-DataScience',
   },
   {
-    id: 'proj-3',
+    id: 'proj-4',
     title: 'TEMPO RENTALS',
-    position: 'left',
+    position: 'right',
     description:
       'Experience Luxury, Speed, and Style with Tempo Rentals. Elevate your journey with our exquisite fleet of supercars and luxury vehicles.',
     img: tempo,
     github: 'https://github.com/Omar-abt/tempo',
     demo: 'https://omar-abt.github.io/tempo/',
-  },
-  {
-    id: 'proj-4',
-    title: 'SMART PARK',
-    position: 'right',
-    description:
-      'Effortless Parking with SMART PARK. Leave the hassle behind and park smartly with us, every time.',
-    img: smrtPark,
-    github: 'https://github.com/smrtpark/smrtpark.github.io',
-    demo: 'https://smrtpark.github.io/',
   },
 ];
