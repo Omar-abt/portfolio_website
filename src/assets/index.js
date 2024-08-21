@@ -3,6 +3,7 @@ import close from '../assets/close.svg';
 import aafc from '../assets/company/aafc.png';
 import ceed from '../assets/company/ceed.png';
 import cengn from '../assets/company/cengn.png';
+import cira from '../assets/company/cira.png';
 import fes from '../assets/company/fes.png';
 import copyright from '../assets/copyright.png';
 import flightDelays from '../assets/projects/flightDelays.png';
@@ -69,6 +70,7 @@ export {
   cLogo,
   ceed,
   cengn,
+  cira,
   close,
   cloud,
   confluence,

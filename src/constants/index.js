@@ -8,6 +8,7 @@ import {
   cLogo,
   ceed,
   cengn,
+  cira,
   close,
   cloud,
   confluence,
@@ -162,7 +163,19 @@ export const skills = [
 
 export const experiences = [
   {
-    title: 'Software Developer COOP',
+    title: 'Software Developer Intern',
+    company_name: 'CIRA',
+    icon: cira,
+    iconBg: '#E6DEDD',
+    date: 'May 2024 - Present',
+    points: [
+      'Spearheaded the development of an Endpoint Security and Detection service, by developing and testing a Java Spring Boot API microservice, creating GitLab CI/CD pipelines for continuous integration, and deploying the containerized application to AWS ECS using terraform.',
+      'Improved the Single sign-on (SSO) feature interfacing with keycloak authentication by mapping and verifying user LDAP information to keycloak.',
+      'Wrote server-side and client-side code using typescript, Next.js and PostgreSQL for a Cyber Security DNS SaaS product that is capable of detecting over 100,000 malicious domains per day.',
+    ],
+  },
+  {
+    title: 'Software Developer Intern',
     company_name: 'Field Effect Software',
     icon: fes,
     iconBg: '#E6DEDD',
@@ -188,7 +201,7 @@ export const experiences = [
     ],
   },
   {
-    title: 'Cloud Infrastructure Engineer COOP',
+    title: 'Cloud Infrastructure Engineer Intern',
     company_name:
       'Canada’s Centre of Excellence in Next Generation Networks (CENGN)',
     icon: cengn,
@@ -202,7 +215,7 @@ export const experiences = [
     ],
   },
   {
-    title: 'System Administrator COOP',
+    title: 'System Administrator Intern',
     company_name: 'Agriculture and Agri-Food Canada',
     icon: aafc,
     iconBg: '#E6DEDD',
