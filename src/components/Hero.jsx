@@ -29,8 +29,8 @@ const Hero = () => {
           <h1 className="px-6 md:pr-0 pb-1 md:pb-0 flex-1 font-poppins font-semibold text-[32px] md:text-[66px] text-gradient">Omar Abotahoon</h1>
         </div>
 
-        <h1 className="px-6 md:pr-0 font-poppins font-semibold text-[26px] md:text-[46px] text-white md:w-[80%]">Software Developer & Student</h1>
-        <p className={`px-6 ${styles.paragraph} max-w-full md:max-w-[75%] mt-3 text-justify`}>I am a highly driven and motivated 4th year software engineering student. I possess excellent technical knowledge, teamwork skills and effective communication developed through working in different positions. I have over 1 year and 4 months of experience in software development and cloud computing,  and over 6 months of experience in project management. I am always eager to learn new things and to grow my skills.</p>
+        <h1 className="px-6 md:pr-0 font-poppins font-semibold text-[26px] md:text-[46px] text-white md:w-[80%]">Software Developer</h1>
+        <p className={`px-6 ${styles.paragraph} max-w-full md:max-w-[75%] mt-3 text-justify`}>I am a highly driven and motivated software developer with over 2.5 years in the industry and a Bachelor of Software Engineering from the University of Ottawa. I love building and automating cloud-native applications, spinning up Docker containers, and orchestrating them with Kubernetes. I’m all about streamlining CI/CD pipelines, embracing infrastructure as code, and collaborating in agile teams to ship reliable, scalable solutions.</p>
 
         <div className="flex px-5 pt-8">
           {socials.map((social) => (

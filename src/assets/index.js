@@ -8,6 +8,7 @@ import fes from '../assets/company/fes.png';
 import copyright from '../assets/copyright.png';
 import flightDelays from '../assets/projects/flightDelays.png';
 import linkedinScraper from '../assets/projects/linkedinScraper.png';
+import intellistudy from '../assets/projects/intellistudy.png'
 import meteorFC from '../assets/projects/meteorFC.png';
 import smrtPark from '../assets/projects/smrtPark.png';
 import tempo from '../assets/projects/tempo.png';
@@ -64,6 +65,7 @@ import tensorflow from '../assets/skills/data-analytics/tensorflow-logo.png';
 export {
   aafc,
   ansible,
+  intellistudy,
   aws,
   azure,
   btstrapLogo,

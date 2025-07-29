@@ -31,6 +31,7 @@ import {
   k8s,
   linkedin,
   linkedinScraper,
+  intellistudy,
   logo,
   matlab,
   meteorFC,
@@ -163,11 +164,23 @@ export const skills = [
 
 export const experiences = [
   {
+    title: 'Automation & DevOps Engineer',
+    company_name: 'CENGN',
+    icon: cengn,
+    iconBg: '#E6DEDD',
+    date: 'Jan 2025 - Present',
+    points: [
+      'Lead the design and development of a Python Django-based application that managed 600+ reservations made on data center hardware and equipment allocated to over 40 clients, which increased the productivity of the customer solutions team.',
+      'Built Ansible automation playbooks to automate the process of data collection and cataloguing of over 50 Cisco BareMetal servers.',
+      'Designed Helm Charts to deploy Prometheus exporters on 3 Kubernetes RKE2 clusters that scrape server metrics and send them to Grafana monitoring dashboards, reducing service downtime by 20% and creating Microsoft Teams alerting rules.',
+    ],
+  },
+  {
     title: 'Software Developer Intern',
     company_name: 'CIRA',
     icon: cira,
     iconBg: '#E6DEDD',
-    date: 'May 2024 - Present',
+    date: 'May 2024 - Dec 2024',
     points: [
       'Spearheaded the development of an Endpoint Security and Detection service, by developing and testing a Java Spring Boot API microservice, creating GitLab CI/CD pipelines for continuous integration, and deploying the containerized application to AWS ECS using terraform.',
       'Improved the Single sign-on (SSO) feature interfacing with keycloak authentication by mapping and verifying user LDAP information to keycloak.',
@@ -230,17 +243,27 @@ export const experiences = [
 export const projects = [
   {
     id: 'proj-1',
-    title: 'LinkedIn Job Scraper',
+    title: 'IntelliStudy',
     position: 'left',
+    description:
+      'An AI powered Study full-stack application that can generate custom quizzes, allowing a user to test their knowledge using study note files.',
+    img: intellistudy,
+    github: 'https://github.com/IntelliStudy/IntelliStudy',
+    demo: 'https://intellistudy-capstone.web.app/',
+  },
+  {
+    id: 'proj-2',
+    title: 'LinkedIn Job Scraper',
+    position: 'right',
     description:
       'A sophisticated job scraper that can look up hundreds of job postings, scrape the posting details, clean the data and output it to a csv file.',
     img: linkedinScraper,
     github: 'https://github.com/Omar-abt/linkedin_job_scraper',
   },
   {
-    id: 'proj-2',
+    id: 'proj-3',
     title: 'METEOR FC',
-    position: 'right',
+    position: 'left',
     description:
       'Explore the world of soccer leagues with Meteor FC. Your gateway to diverse leagues and endless play opportunities.',
     img: meteorFC,
@@ -248,18 +271,18 @@ export const projects = [
     demo: 'https://meteor-fc.vercel.app/',
   },
   {
-    id: 'proj-3',
+    id: 'proj-4',
     title: 'FLIGHT DELAYS DATA WAREHOUSE',
-    position: 'left',
+    position: 'right',
     description:
       'Designed and implemented a data mart through the ETL process, performing data analytics, creating OLAP queries and performing data mining.',
     img: flightDelays,
     github: 'https://github.com/Omar-abt/FlightDelays-DataScience',
   },
   {
-    id: 'proj-4',
+    id: 'proj-5',
     title: 'TEMPO RENTALS',
-    position: 'right',
+    position: 'left',
     description:
       'Experience Luxury, Speed, and Style with Tempo Rentals. Elevate your journey with our exquisite fleet of supercars and luxury vehicles.',
     img: tempo,
